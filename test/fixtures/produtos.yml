@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  marca: MyString
+  descricao: MyString
+  montadora: MyString
+  modelo: MyString
+  motor: MyString
+  complemento: MyString
+  ano: 1
+  codigodebarra: 1
+  estoque: 1
+  valor: 1.5
+
+two:
+  nome: MyString
+  marca: MyString
+  descricao: MyString
+  montadora: MyString
+  modelo: MyString
+  motor: MyString
+  complemento: MyString
+  ano: 1
+  codigodebarra: 1
+  estoque: 1
+  valor: 1.5

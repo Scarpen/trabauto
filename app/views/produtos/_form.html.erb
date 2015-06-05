@@ -1,0 +1,21 @@
+<%= simple_form_for(@produto) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :nome %>
+    <%= f.input :marca %>
+    <%= f.input :descricao %>
+    <%= f.input :montadora %>
+    <%= f.input :modelo %>
+    <%= f.input :motor %>
+    <%= f.input :complemento %>
+    <%= f.input :ano %>
+    <%= f.input :codigodebarra %>
+    <%= f.input :estoque %>
+    <%= f.input :valor %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
